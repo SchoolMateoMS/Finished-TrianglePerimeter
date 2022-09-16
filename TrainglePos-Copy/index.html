@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Triangle Perimeter</title>
+
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="style.css" />
+
+    <script defer src="main.js"></script>
+  </head>
+
+  <body>
+    <h1>Triangle Perimeter</h1>
+    <hr />
+
+    <h3>Perimeter = AB + AC + BC</h3>
+    <p>
+      <img src="img/triangle-vertices.PNG" alt="Triangle Image" width="400" />
+    </p>
+
+    <hr />
+
+    <p>
+    Enter the vertices of a triangle and click "calculate" 
+    to determine the side lengths and perimeter of the triangle
+    </p>
+
+    <p>Vertex A xA: <input type="number" id="vertex-xA">  yA: <input type="number" id="vertex-yA"></p>
+    <p>Vertex B xB: <input type="number" id="vertex-xB">  yB: <input type="number" id="vertex-yB"></p>
+    <p>Vertex C xC: <input type="number" id="vertex-xC">  yC: <input type="number" id="vertex-yC"></p>
+
+    <hr>
+    <button id="btn">calculate</button>
+
+    <p>AB = <span class="side" id="AB">---</span></p>
+    <p>AC = <span class="side" id="AC">---</span></p>
+    <p>BC = <span class="side" id="BC">---</span></p>
+    <hr/>
+
+    <p>Perimeter = <span id="Perimeter">---</span></p>
+
+  </body>
+</html>
